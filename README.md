@@ -3,13 +3,11 @@
 
 [150 Days of Giving](http://www.150daysofgiving.com/) fail.
 
-Disclaimer
-==========
+## Disclaimer
 
 This project merely *demonstrates* the weaknesses of the 150 Days of Giving website by showing how it is possible to obtain an insane number of votes very quickly, due a combination of no rate limiting, stupidly simple captchas, no enforced login, cookie-only authentication, general sloppiness, and more.
 
-Usage
-=====
+## Usage
 
 ```
 $ python troll.py group_id [-t times]
@@ -24,16 +22,14 @@ By default, `troll.py` will vote for that nonprofit exactly once. To vote more t
 $ python troll.py group_id -t 500
 ```
 
-Dependencies
-============
+## Dependencies
 
 - Tesseract OCR ([link](https://code.google.com/p/tesseract-ocr/))
 - `pytesser` ([link](https://code.google.com/p/pytesser/))
 - `PIL` ([link](http://www.pythonware.com/products/pil/))
 - `requests` ([link](http://docs.python-requests.org/en/latest/))
 
-License
-=======
+## License
 
 Copyright (C) 2014 Theopolisme <theopolismewiki@gmail.com>
 
@@ -49,5 +45,3 @@ GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
-
-
